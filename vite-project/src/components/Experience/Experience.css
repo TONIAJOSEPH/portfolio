@@ -1,0 +1,58 @@
+.expWrapper {
+    background-color: rgb(20, 20, 44);
+    color: white;
+    padding-bottom: 100px;
+}
+
+.subTitle {
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(242, 243, 244, 0.5);
+}
+
+.exp {
+    width: 100%;
+    max-width: 500px;
+    background-color: rgba(17, 25, 40, 0.83);
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
+    border-radius: 16px;
+    padding: 18px 36px;
+    color: rgba(242, 243, 244, 0.5);
+}
+
+.contentHeader {
+    display: flex;
+    color: rgba(242, 243, 244, 0.5);
+}
+
+.expSkills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.timelineContent ul {
+    list-style: none;
+    display: flex;
+}
+
+@media(max-width: 768px) {
+    .contentHeader img {
+        width: 70px;
+    }
+
+    .contentHeader .headerText {
+        h5 {
+            font-size: 12px;
+        }
+
+        h6 {
+            font-size: 10px;
+        }
+    }
+
+    .timelineContent p {
+        font-size: 12px !important;
+    }
+}

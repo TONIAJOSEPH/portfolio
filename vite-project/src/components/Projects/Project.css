@@ -1,0 +1,46 @@
+.projectWrapper {
+    background-color: rgb(20, 20, 44);
+    color: white;
+    padding-bottom: 100px;
+}
+
+.subTitle {
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(242, 243, 244, 0.5);
+}
+
+.project {
+    background-color: rgba(17, 25, 40, 0.83);
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    box-shadow: rgba(15, 16, 19, 0.15) 0px 4px 24px;
+    border-radius: 16px;
+    padding: 18px 36px;
+    color: rgba(242, 243, 244, 0.5);
+
+
+}
+
+.imageSection {
+    background-color: rgba(17, 25, 40, 0.83);
+    border: 1px solid rgba(241, 239, 239, 0.125);
+    border-radius: 10px;
+    padding: 18px 36px;
+    color: rgba(242, 243, 244, 0.5);
+}
+
+.projectSkills {
+    background-color: rgba(23, 36, 59, 0.83);
+    color: blueviolet;
+    border-radius: 50px;
+    padding: 10px 15px;
+
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}

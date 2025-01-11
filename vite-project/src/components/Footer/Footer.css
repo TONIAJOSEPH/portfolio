@@ -1,0 +1,48 @@
+.footerWrapper {
+    background-color: rgb(20, 20, 44);
+    color: white;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerWrapper h3 {
+    color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.linkSection ul {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.copyright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.navLinks ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+
+}
+
+@media(max-width: 768px) {
+    .navLinks ul {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,120 @@
+.navbarWrapper {
+    background-color: rgb(20, 20, 44);
+    color: white;
+    height: 80px;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    z-index: 9;
+}
+
+.navContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}
+
+.navProfileButton {
+    padding: 10px;
+    border-radius: 10px;
+    border: solid rgb(53, 53, 133);
+    background-color: black;
+    color: white;
+}
+.navProfileButton a{
+    color: white;
+    text-decoration: none;
+}
+
+.navProfileButton:hover {
+    color: white;
+    background-color: rgb(20, 20, 60);
+    border-color: white;
+}
+
+.profileName {
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.navbarItem {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    margin-bottom: 0;
+}
+
+.navbarItem li a {
+    font-size: 1rem;
+    font-weight: 500;
+    color: unset;
+    text-decoration: unset;
+    cursor: pointer;
+}
+
+.navbarItem li .navProfileButton {
+    display: none;
+}
+
+.navbarItemMobile {
+    display: none;
+}
+
+.navbarToggle {
+    display: none;
+}
+.navbarItem li a{
+    color: white;
+    text-decoration: none;
+}
+
+
+@media(max-width: 768px) {
+    .navbarToggle {
+        cursor: pointer;
+        display: block;
+        float: right;
+    }
+
+    .navbarItemDesktop {
+        display: none;
+    }
+
+    .navProfileButton {
+        display: none;
+    }
+
+    .navbarItemMobile {
+        display: flex;
+    }
+
+    .navbarItem {
+        gap: 15px;
+        flex-direction: column;
+        position: absolute;
+        top: 80px;
+        right: 0px;
+        flex-wrap: wrap;
+        align-items: start;
+        transform: translateY(0px);
+        opacity: 1;
+        width: 100%;
+        background: rgba(25, 24, 36, .5);
+    }
+
+    .profileName {
+        font-size: 14px;
+    }
+
+    .navbarItem li .navProfileButton {
+        display: block;
+    }
+    .navContent {
+        gap: 0;
+    }
+
+}
