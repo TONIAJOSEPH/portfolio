@@ -55,6 +55,10 @@
   text-decoration: unset;
   cursor: pointer;
 }
+.navbarItem li a.activeNav {
+  color: blueviolet;
+  border-bottom: 2px solid blueviolet;
+}
 
 .navbarItem li .navProfileButton {
   display: none;

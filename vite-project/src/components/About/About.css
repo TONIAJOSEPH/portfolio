@@ -1,52 +1,75 @@
 .aboutWrapper {
-    background-color: rgb(20, 20, 44);
-    color: white;
-    padding-bottom: 100px;
+  background-color: rgb(20, 20, 44);
+  color: white;
+  padding-bottom: 100px;
 }
 
 .aboutSection {
-    padding-top: 100px;
+  padding-top: 100px;
 }
 
 .role {
-    color: blueviolet;
+  color: blueviolet;
 }
 
 .aboutSummary {
-    margin-top: 50px;
-    padding: 10px;
-    font-size: 20px;
-    color: antiquewhite;
-    border-radius: 10px;
-    padding-bottom: 50px;
+  margin-top: 50px;
+  padding: 10px;
+  font-size: 20px;
+  color: antiquewhite;
+  border-radius: 10px;
+  padding-bottom: 50px;
 }
 
 .resumeButton {
-    margin-top: 20px;
-    border-radius: 40px;
-    border-color: transparent;
-    background: linear-gradient(to right, rgb(22, 22, 59), rgb(128, 48, 128));
-    padding: 20px 50px;
-    color: white;
+  margin-top: 20px;
+  border-radius: 40px;
+  border-color: transparent;
+  background: linear-gradient(to right, rgb(22, 22, 59), rgb(128, 48, 128));
+  padding: 20px 50px;
+  color: white;
 }
 
 .profilePhotoSection {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.profilePhotoSection:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
 .profilePhoto {
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
 }
 
-@media(max-width: 768px) {
-    .aboutSection {
-        padding-top: 10px;
-    }
-    .aboutSection span{
-        font-size: 30px;
-    }
+@media (max-width: 768px) {
+  .aboutSection {
+    padding-top: 10px;
+  }
+  .aboutSection span {
+    font-size: 30px;
+  }
+  .introSection,
+  .introSection h2 {
+    display: grid;
+    place-items: center;
+    margin-top: 20px;
+  }
+  .firstSection {
+    display: flex;
+    flex-direction: column;
+  }
+  .resume {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .aboutSummary p {
+    font-size: 14px;
+    text-align: center;
+  }
 }
