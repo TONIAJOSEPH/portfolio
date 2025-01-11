@@ -11,10 +11,10 @@ return (
   <div className="container">
   <div className="row">
     <div className="navContent">
-    <div className="col-md-2 col-6">
+    <div className="profileNameSection">
       <h6 className="profileName">TONIA JOSEPH</h6>
     </div>
-    <div className="col-md-8 col-6">  
+    <div className="navItemsSection">  
       <div className="navbarToggle" onClick={()=>setToggleDiv(!toggleDiv)}>
         <img src={JustifyIcon}/>
       </div>
@@ -36,7 +36,7 @@ return (
           <li><Link to="edu">Education</Link></li>
         </ul>      
     </div>
-    <div className="col-md-2">
+    <div className="navProfileButtonSection">
     <button className="navProfileButton"><a href="https://github.com/TONIAJOSEPH" target="_blank">GITHUB profile</a></button>
     </div>
     </div>
