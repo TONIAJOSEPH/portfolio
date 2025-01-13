@@ -28,7 +28,7 @@ const Experience: React.FC = () => {
                   <p>
                     Worked on various projects in React and Angular. Applied
                     React hooks for reusable components and simplified the UI.
-                    Implemented backend validation, JWT, and error handling.
+                    Implemented Api integrations.worked on agile environment.
                     Managed version control with Git for smooth collaboration.
                   </p>
                   <p>
