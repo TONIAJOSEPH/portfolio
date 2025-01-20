@@ -5,7 +5,7 @@ const About: React.FC = () => {
     const link = document.createElement("a");
     const isProduction = import.meta.env.MODE === 'production';
     const fileUrl = isProduction
-      ? '/portfolio/TojinaJoseph-Resume.pdf'
+      ? '/portfolio/Tonia_Joseph.pdf'
       : 'Tonia_Joseph.pdf';
     link.href = fileUrl; // Path to the PDF file (e.g., public folder)
     link.download = "Resume.pdf"; // Optional: Name for the downloaded file
