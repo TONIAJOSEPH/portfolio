@@ -3,7 +3,11 @@ import profilephoto from "../../assets/profile.png";
 const About: React.FC = () => {
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = "/public/Tonia_Joseph.pdf"; // Path to the PDF file (e.g., public folder)
+    const isProduction = import.meta.env.MODE === 'production';
+    const fileUrl = isProduction
+      ? '/portfolio/TojinaJoseph-Resume.pdf'
+      : 'Tonia_Joseph.pdf';
+    link.href = fileUrl; // Path to the PDF file (e.g., public folder)
     link.download = "Resume.pdf"; // Optional: Name for the downloaded file
     link.click();
   };
