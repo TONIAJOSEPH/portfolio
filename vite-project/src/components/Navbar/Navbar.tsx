@@ -69,7 +69,7 @@ const Navbar: React.FC = () => {
                   <Link to="exp">Experience</Link>
                 </li>
                 <li>
-                  <Link to="project">Projects</Link>
+                  <Link to="project">Project</Link>
                 </li>
                 <li>
                   <Link to="edu">Education</Link>

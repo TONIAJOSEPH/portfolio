@@ -20,15 +20,6 @@ function App() {
     <Education/>
     <Contact/>
     <Footer/>
-
-    {/* <Router>
-      <Routes>
-
-<Route path='/' element={<About/>}/>
-<Route path='/contact' element={<Contact/>}/>
-      </Routes>
-    </Router> */}
-   
     </>
   )
 }
