@@ -22,10 +22,14 @@ jobs:
       run: cd vite-project
 
     - name: Install dependencies
-      run: npm install
+      run: |
+        cd vite-project   # Make sure we are in the 'frontend' directory
+        npm install   # Install frontend dependencies
 
     - name: Build project
-      run: npm run build
+      run: |
+        cd vite-project   # Navigate to the frontend directory if needed
+        npm run build # Build the frontend app
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
