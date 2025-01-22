@@ -2,7 +2,6 @@ import './App.css'
 import About from './components/About/About'
 import Contact from './components/Contact/Contact'
 import Navbar from './components/Navbar/Navbar'
-import {Route, BrowserRouter as Router,Routes} from "react-router-dom"
 import Skills from './components/Skills/Skills'
 import Experience from './components/Experience/Experience'
 import Project from './components/Projects/Project'
