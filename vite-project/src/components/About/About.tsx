@@ -28,10 +28,9 @@ const About: React.FC = () => {
                 <p>
                   I'm a highly motivated and versatile individual with a strong
                   aptitude for problem-solving and a deep commitment to
-                  continuous development. I enjoy tackling complex challenges,
-                  analyzing data, and developing effective solutions. I'm a firm
-                  believer in lifelong learning and actively pursue
-                  opportunities to expand my knowledge and skillset.
+                  continuous development.I build and maintain web applications.
+                  I focus on writing clean code and making sure the frontend works smoothly for the user.
+                  I enjoy solving technical problems and shipping features that actually get used.
                 </p>
               </div>
               <div className="resume">
